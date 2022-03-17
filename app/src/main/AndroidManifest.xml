@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arpitparekh.hardikbhagvatproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HardikBhagvatProject">
+        <activity
+            android:name=".cordinator_layput.MyCoActivity"
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".viewBinding_dataBinding.MyActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".passString_passObject_revision.TwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".passString_passObject_revision.OneActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".passString_passObject.GoaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".passString_passObject.MumbaiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity_switch.SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_switch.FirstActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
