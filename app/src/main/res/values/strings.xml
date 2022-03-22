@@ -2,4 +2,6 @@
     <string name="app_name">HardikBhagvatProject</string>
     <string name="myString">This is String</string>
     <string name="name">Tops Student</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

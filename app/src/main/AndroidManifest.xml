@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HardikBhagvatProject">
         <activity
-            android:name=".cordinator_layput.MyCoActivity"
+            android:name=".fragments.HolderActivity"
             android:exported="true" >
 
             <intent-filter>
@@ -18,18 +18,22 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
-            android:name=".viewBinding_dataBinding.MyActivity"
+            android:name=".cordinator_layput.MyCoActivity"
             android:exported="true">
 
         </activity>
+        <activity
+            android:name=".viewBinding_dataBinding.MyActivity"
+            android:exported="true"></activity>
         <activity
             android:name=".passString_passObject_revision.TwoActivity"
             android:exported="false" />
         <activity
             android:name=".passString_passObject_revision.OneActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".passString_passObject.GoaActivity"
             android:exported="false" />
