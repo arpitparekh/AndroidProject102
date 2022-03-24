@@ -22,8 +22,6 @@ public class SeekBarActivity extends AppCompatActivity implements SeekBar.OnSeek
         binding.sbBlue.setOnSeekBarChangeListener(this);
         binding.sbGreen.setOnSeekBarChangeListener(this);
         binding.sbRed.setOnSeekBarChangeListener(this);
-
-
     }
 
     @Override
