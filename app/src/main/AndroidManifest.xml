@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HardikBhagvatProject">
         <activity
-            android:name=".fragments.HolderActivity"
+            android:name=".widget_component.SeekBarActivity"
             android:exported="true" >
 
             <intent-filter>
@@ -21,13 +21,19 @@
 
         </activity>
         <activity
-            android:name=".cordinator_layput.MyCoActivity"
+            android:name=".widget_component.STCActivity"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".viewBinding_dataBinding.MyActivity"
+            android:name=".fragments.HolderActivity"
             android:exported="true"></activity>
+        <activity
+            android:name=".cordinator_layput.MyCoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".viewBinding_dataBinding.MyActivity"
+            android:exported="true" />
         <activity
             android:name=".passString_passObject_revision.TwoActivity"
             android:exported="false" />
