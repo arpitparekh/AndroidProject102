@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="item1"
+        android:id="@+id/action_item1"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:title="item2"
+        android:id="@+id/action_item2"/>
+    <item
+        android:title="item3"
+        android:id="@+id/action_item3"/>
+    <item
+        android:title="item4"
+        android:id="@+id/action_item4">
+
+        <menu>
+            <item
+                android:title="item5"
+                android:id="@+id/action_item5"/>
+            <item
+                android:title="item6"
+                android:id="@+id/action_item6"/>
+        </menu>
+
+    </item>
+
+</menu>
