@@ -110,4 +110,10 @@ public class MyMenuActivity extends AppCompatActivity {
         itemClick(item);
         return super.onContextItemSelected(item);
     }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+
+        super.onWindowFocusChanged(hasFocus);
+    }
 }
