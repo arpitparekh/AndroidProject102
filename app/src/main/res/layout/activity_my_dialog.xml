@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dialog.MyDialogActivity">
+
+    <Button
+        android:id="@+id/btnAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Alert"
+        app:layout_constraintBottom_toTopOf="@+id/btnAlert1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnAlert1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="29dp"
+        android:text="Alert1"
+        app:layout_constraintBottom_toTopOf="@+id/btnProgress"
+        app:layout_constraintEnd_toEndOf="@+id/btnAlert" />
+
+    <Button
+        android:id="@+id/btnProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="38dp"
+        android:text="Progress"
+        app:layout_constraintBottom_toTopOf="@+id/btnProgress1"
+        app:layout_constraintStart_toStartOf="@+id/btnAlert1" />
+
+    <Button
+        android:id="@+id/btnProgress1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="38dp"
+        android:text="Progress1"
+        app:layout_constraintBottom_toTopOf="@+id/btnTime"
+        app:layout_constraintEnd_toEndOf="@+id/btnFullScreen"
+        app:layout_constraintStart_toStartOf="@+id/btnFullScreen" />
+
+    <Button
+        android:id="@+id/btnTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="27dp"
+        android:text="Time"
+        app:layout_constraintBottom_toTopOf="@+id/btnDate"
+        app:layout_constraintStart_toStartOf="@+id/btnDate" />
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="28dp"
+        android:text="Date"
+        app:layout_constraintBottom_toTopOf="@+id/btnFullScreen"
+        app:layout_constraintStart_toStartOf="@+id/btnFullScreen" />
+
+    <Button
+        android:id="@+id/btnFullScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="Full Screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HardikBhagvatProject">
         <activity
-            android:name=".menu.MyMenuActivity"
-            android:exported="true">
+            android:name=".dialog.MyDialogActivity"
+            android:exported="true" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,16 +21,19 @@
 
         </activity>
         <activity
-            android:name=".widget_component.RadioActivity"
+            android:name=".menu.MyMenuActivity"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".widget_component.SeekBarActivity"
+            android:name=".widget_component.RadioActivity"
             android:exported="true"></activity>
         <activity
+            android:name=".widget_component.SeekBarActivity"
+            android:exported="true" />
+        <activity
             android:name=".widget_component.STCActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".fragments.HolderActivity"
             android:exported="true" />

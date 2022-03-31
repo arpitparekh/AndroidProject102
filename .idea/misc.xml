@@ -11,6 +11,7 @@
         <entry key="app/src/main/res/layout/activity_mumbai.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/layout/activity_my.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_my_co.xml" value="0.2609375" />
+        <entry key="app/src/main/res/layout/activity_my_dialog.xml" value="0.26197916666666665" />
         <entry key="app/src/main/res/layout/activity_my_menu.xml" value="0.26197916666666665" />
         <entry key="app/src/main/res/layout/activity_one.xml" value="0.264" />
         <entry key="app/src/main/res/layout/activity_radio.xml" value="0.2609375" />
@@ -18,6 +19,7 @@
         <entry key="app/src/main/res/layout/activity_seek_bar.xml" value="0.264" />
         <entry key="app/src/main/res/layout/activity_stcactivity.xml" value="0.264" />
         <entry key="app/src/main/res/layout/activity_two.xml" value="0.2598958333333333" />
+        <entry key="app/src/main/res/layout/dialog_layout.xml" value="0.26197916666666665" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/layout.xml" value="0.2609375" />
