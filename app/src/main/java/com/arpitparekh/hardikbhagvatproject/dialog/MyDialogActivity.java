@@ -32,8 +32,8 @@ public class MyDialogActivity extends AppCompatActivity {
         binding = ActivityMyDialogBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        String items[] = {"Car","Bike","plane","metro","Bus","Rickshaw","Submarine","Jet","Elephant"};
-        boolean check[]={true,true,false,true,true,false,false,false,false};
+        String[] items = {"Car","Bike","plane","metro","Bus","Rickshaw","Submarine","Jet","Elephant"};
+        boolean[] check ={true,true,false,true,true,false,false,false,false};
         ArrayList<String> vehicles = new ArrayList<>();
 
         vehicles.add(items[0]);
