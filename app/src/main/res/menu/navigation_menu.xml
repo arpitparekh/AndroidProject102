@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/myItem1"
+        android:title="Menu 1"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:id="@+id/myItem2"
+        android:title="Menu 2"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:id="@+id/myItem3"
+        android:title="Menu 3"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:id="@+id/meraGroup"
+        android:title="Mera Group"
+        android:icon="@drawable/ic_poke">
+
+        <menu>
+
+            <item
+                android:id="@+id/myItem7"
+                android:title="Menu 7"
+                android:icon="@drawable/ic_poke"/>
+            <item
+                android:id="@+id/myItem8"
+                android:title="Menu 8"
+                android:icon="@drawable/ic_poke"/>
+
+
+        </menu>
+
+    </item>
+
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group">
+
+        <item
+            android:id="@+id/myItem5"
+            android:orderInCategory="0"
+            android:title="Menu 5"
+            android:icon="@drawable/ic_poke"/>
+
+        <item
+            android:orderInCategory="0"
+            android:id="@+id/myItem6"
+            android:title="Menu 6"
+            android:icon="@drawable/ic_poke"/>
+
+
+    </group>
+
+</menu>

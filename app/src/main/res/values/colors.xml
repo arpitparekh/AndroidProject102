@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="mycolor">#FFC107</color>
     <color name="demo">#963DA5</color>
+
+    <color name="main">#36833A</color>
 </resources>
