@@ -7,6 +7,7 @@
         <entry key="..\:/Users/Tops/AndroidStudioProjects/AndroidProject102/app/src/main/res/layout/activity_my_dialog.xml" value="0.2222222222222222" />
         <entry key="app/src/main/res/drawable/ic_poke.xml" value="0.203" />
         <entry key="app/src/main/res/layout/activity_drawer.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/layout/activity_emp_list.xml" value="0.26145833333333335" />
         <entry key="app/src/main/res/layout/activity_first.xml" value="0.264" />
         <entry key="app/src/main/res/layout/activity_goa.xml" value="0.2671875" />
         <entry key="app/src/main/res/layout/activity_holder.xml" value="0.2609375" />
@@ -25,6 +26,7 @@
         <entry key="app/src/main/res/layout/activity_student_list.xml" value="0.2604166666666667" />
         <entry key="app/src/main/res/layout/activity_two.xml" value="0.2598958333333333" />
         <entry key="app/src/main/res/layout/dialog_layout.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/layout/emp_row_item.xml" value="0.264" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/fragment_one.xml" value="0.2604166666666667" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.2609375" />

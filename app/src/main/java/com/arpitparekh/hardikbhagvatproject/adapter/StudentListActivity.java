@@ -29,7 +29,6 @@ public class StudentListActivity extends AppCompatActivity {
 
         // adapter
         // ArrayAdapter
-        // Simple Adapter
         // RecyclerView Adapter
 
         // ArrayAdapter
