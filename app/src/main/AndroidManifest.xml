@@ -2,34 +2,40 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.arpitparekh.hardikbhagvatproject">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.HardikBhagvatProject">
+        android:theme="@style/Theme.HardikBhagvatProject"
+        android:usesCleartextTraffic="true">
         <activity
-            android:name=".recyclerView_adapter.EmpListActivity"
-            android:exported="true" >
+            android:name=".gallery_recyclerView.ShowDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".gallery_recyclerView.GalleryActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
+            android:name=".recyclerView_adapter.EmpListActivity"
+            android:exported="true"></activity>
+        <activity
             android:name=".adapter.StudentListActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".viewPager.MyPagerActivity"
             android:exported="true" />
         <activity
             android:name=".navigation_drawer.DrawerActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".dialog.MyDialogActivity"
             android:exported="true" />
