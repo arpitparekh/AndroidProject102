@@ -10,16 +10,19 @@
         <entry key="app/src/main/res/layout/activity_drawer.xml" value="0.26197916666666665" />
         <entry key="app/src/main/res/layout/activity_emp_list.xml" value="0.26145833333333335" />
         <entry key="app/src/main/res/layout/activity_emp_list2.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/activity_faculty_list.xml" value="0.28958333333333336" />
         <entry key="app/src/main/res/layout/activity_first.xml" value="0.264" />
         <entry key="app/src/main/res/layout/activity_gallery.xml" value="0.26145833333333335" />
         <entry key="app/src/main/res/layout/activity_goa.xml" value="0.2671875" />
         <entry key="app/src/main/res/layout/activity_holder.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/activity_internal_external.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.28958333333333336" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="app/src/main/res/layout/activity_mumbai.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/layout/activity_my.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_my_co.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/activity_my_dialog.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/layout/activity_my_firebase.xml" value="0.4" />
         <entry key="app/src/main/res/layout/activity_my_menu.xml" value="0.26197916666666665" />
         <entry key="app/src/main/res/layout/activity_my_pager.xml" value="0.2604166666666667" />
         <entry key="app/src/main/res/layout/activity_my_tool.xml" value="0.28958333333333336" />
@@ -27,6 +30,7 @@
         <entry key="app/src/main/res/layout/activity_one.xml" value="0.264" />
         <entry key="app/src/main/res/layout/activity_online_json.xml" value="0.28958333333333336" />
         <entry key="app/src/main/res/layout/activity_radio.xml" value="0.2609375" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.2671875" />
         <entry key="app/src/main/res/layout/activity_second.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/layout/activity_seek_bar.xml" value="0.264" />
         <entry key="app/src/main/res/layout/activity_show_data.xml" value="0.26145833333333335" />

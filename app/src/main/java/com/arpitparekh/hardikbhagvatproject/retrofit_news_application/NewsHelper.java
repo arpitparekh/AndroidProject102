@@ -17,8 +17,6 @@ public class NewsHelper {
         NewsApi api = retrofit.create(NewsApi.class);
 
         return api;
-
-
     }
 
 }

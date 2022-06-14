@@ -17,24 +17,34 @@
         android:theme="@style/Theme.HardikBhagvatProject"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".retrofit_news_application.NewsListActivity"
+            android:name=".firebase_full.MyFirebaseActivity"
             android:exported="true" >
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
-            android:name=".json_parsing.OnlineJsonActivity"
+            android:name=".firebase_realtime.FacultyListActivity"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".room_crud.EmpListActivity"
+            android:name=".firebase_auth.LoginActivity"
             android:exported="true"></activity>
+        <activity
+            android:name=".firebase_auth.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".retrofit_news_application.NewsListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".json_parsing.OnlineJsonActivity"
+            android:exported="true" />
+        <activity
+            android:name=".room_crud.EmpListActivity"
+            android:exported="true" />
         <activity
             android:name=".internal_external.InternalExternalActivity"
             android:exported="true" />

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "596007269921",
+    "project_id": "bhagvat-hardik-project",
+    "storage_bucket": "bhagvat-hardik-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596007269921:android:79c4a755cb9452d5f39560",
+        "android_client_info": {
+          "package_name": "com.arpitparekh.hardikbhagvatproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596007269921-hdfcfe4688rdo1dlcrj42f9io6rngbjd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arpitparekh.hardikbhagvatproject",
+            "certificate_hash": "d410abf82e931608878e7f22fd2ff339471aebac"
+          }
+        },
+        {
+          "client_id": "596007269921-3ksbmfrp52q6dq00e4kqijhvg2ps6hlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChCMrGaQnkKfG2sxwDn0g40iPK7LCCi2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596007269921-3ksbmfrp52q6dq00e4kqijhvg2ps6hlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
